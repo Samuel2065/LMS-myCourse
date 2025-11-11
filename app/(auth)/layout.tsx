@@ -1,7 +1,5 @@
 import { buttonVariants } from "@/components/ui/button";
-import Logo from "@/public/creation_1921439437.png";
 import { ArrowLeft } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function AuthLayout({
@@ -27,8 +25,8 @@ export default function AuthLayout({
           className="flex items-center gap-2 self-center font-medium"
           href="/"
         >
-          <Image src={Logo} alt="Logo" width={32} height={32} />
-          myCourse
+          {/* <Image src={} alt="Logo" width={32} height={32} /> */}
+          {/* myCourse */}
         </Link>
         {children}
 
